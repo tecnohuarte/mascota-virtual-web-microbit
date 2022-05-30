@@ -3,9 +3,6 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showIcon(IconNames.Happy)
     soundExpression.happy.playUntilDone()
 })
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(timer)
-})
 input.onGesture(Gesture.Shake, function () {
     timer = 0
     basic.showIcon(IconNames.Surprised)
